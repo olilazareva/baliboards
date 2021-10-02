@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script defer src="js/baliboards.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<title>Bali boards</title>
+</head>
+<body>
+	<div class="wrapper">
+
+	<header class="header">
+		<div class="navigation">
+		<nav class="menu">
+						<a id="logo" href="index.html">Bali boards</a>
+						<a href="">Custom order</a>
+						<a href="">Shop boards</a>
+						<a href="">Contact</a>
+						<div class="lefties">
+						<a href="#" class="fa fa-search" style="margin: 0; margin-right: 1vw;"></a>
+						<a href="#" class="fa fa-user" style="margin: 0; margin-right: 1vw;"></a>
+						<a href="#" class="fa fa-shopping-cart" style="margin: 0"></a>
+						</div>
+		</nav>	
+		</div>
+	</header>
+
+	<main>
+		<div class="shop">
+			<h1>Sale</h1>
+			<div class="shop-button">
+				<button class="main-button">Shop now<span class="tooltiptext">my apologies, but it's fake :)<br>try other buttons <span class="peace">&#x270C</span></span></button>
+			</div>
+		</div>
+	
+		
+		<div><button id="b" type="button" onclick="openBottom()" class="bottom-button"><span class="fa fa-th" style="font-size: 6.25vh"></span></button>
+			<button id="s" type="button" onclick="openSide()" class="side-button"><span class="fa fa-th" style="font-size: 6.25vh"></span></button></div>
+		
+		<div id="bottom">
+			<div class="hiding-info">
+				<div class="one">
+					<h2>Custom builder</h2>
+					<img src="images/Group-16@2x.png" alt="surfboard">
+				</div>
+				<div class="one">
+					<h2>Expert advice</h2>
+					<img src="images/Group-17@2x.png" alt="hand">
+				</div>
+				<div class="one">
+					<h2>Trade in</h2>
+					<img src="images/Group-18@2x.png" alt="two surfboards">
+				</div>
+				<div class="one">
+					<h2>30-day Guarantee</h2>
+					<img src="images/Group-19@2x.png" alt="shield">
+				</div>
+				
+			</div>
+			<button type="button" onclick="closeBottom()" class="arrow"><img src="images/bottom-button1@2x.png" alt="closing arrow"></button>
+		</div>
+
+		<div id="side">
+		<button type="button" onclick="closeSide()" class="close"><img src="images/side-button1@2x.png" alt="closing arrow"></button>
+		<div class="reviews">
+			<h3>Customer reviews</h3>
+			<div class="customer">
+					<div class="text">
+						<h4>Sally Moon</h4>
+						<img class="avatar" src="images/avatar-girl@2x.png" alt="girls face">
+						<img class="stars" src="images/stars@2x.png" alt="five yellow stars">
+						<div class="review">
+							Thank you guys so much! I absolutely adore my new board. So happy that I found your store in Kuta!
+						</div>
+						
+						</div>
+			</div>
+			<div class="customer">
+					<div class="text">
+						<h4>Andy Stein</h4>
+						<img class="avatar" src="images/avatar-boy@2x.png" alt="boys face">
+						<img class="stars" src="images/stars@2x.png" alt="five yellow stars">
+						<div class="review">
+							I broke my board and needed a new just the same one. So I made a custom order and guys — I can’t believe this — it is really like a twin of my previous surfboard. Thanks a lot!
+						</div>
+						
+			</div>
+			</div>
+			<div class="more">
+			<button class="read-more">Read more<span class="tooltiptext">oops! fake button!</span></button>
+			</div>
+		</div>	
+		</div>
+		<div class="audio">
+		<audio id="song1" controls>
+			<source src="https://mp3minusovki.com/music/fhvndfjwserjgt/1156a4faab98e5be6bff5b7620d56ceb/495dd9a3307e922c317cb2a106b89b5c.mp3">
+		</audio >
+		<audio id="song2" controls>
+			<source src="https://mp3minusovki.com/music/fhvndfjwserjgt/1156a4faab98e5be6bff5b7620d56ceb/10c224a37256c650f3037b184e1aa562.mp3">
+		</audio>
+		<audio id="song3" controls>
+			<source src="https://mp3minusovki.com/music/fhvndfjwserjgt/9f51406596884933e4a839b32e7e528e/49c36dff74e57fcf33405de38f807c6e.mp3">
+		</audio>
+		</div>
+	</main>
+	</div>
+</body>
+</html>
