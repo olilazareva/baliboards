@@ -1,7 +1,5 @@
 "user strict";
 
-alert("How you doin'? ;) Here's some music for ya!");
-
 
 function closeBottom(){
 	y=document.getElementById('bottom');
