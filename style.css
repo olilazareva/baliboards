@@ -693,26 +693,5 @@ h4 {
 	font-size: 150%;
 }
 /*---------------------------------------------------------------*/
-#song1 {
-	position: absolute;
-	margin-left: 13vw;
-	margin-top: 7vh;
-	padding-bottom: 1vh;
-}
-
-#song2 {
-	position: absolute;
-	margin-left: 13vw;
-	margin-top: 14vh;
-	padding-bottom: 1vh;
-}
-
-#song3 {
-	position: absolute;
-	margin-left: 13vw;
-	margin-top: 21vh;
-	padding-bottom: 1vh;
-}
-
 
 
