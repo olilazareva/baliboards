@@ -43,24 +43,24 @@ function openSide(){
 }
 
 jQuery(function($){
-  $(document).mouseup(function (e){ // событие клика по веб-документу
-    var div = $("#side"); // тут указываем ID элемента
+  $(document).mouseup(function (e){ 
+    var div = $("#side"); 
     var sidebutton = $('#s');
-    if (!div.is(e.target) // если клик был не по нашему блоку
-        && div.has(e.target).length === 0) { // и не по его дочерним элементам
-      div.hide() // скрываем его
+    if (!div.is(e.target) 
+        && div.has(e.target).length === 0) { 
+      div.hide() 
       && sidebutton.show();
     }
   });
 });
 
 jQuery(function($){
-  $(document).mouseup(function (e){ // событие клика по веб-документу
-    var divb = $("#bottom"); // тут указываем ID элемента
+  $(document).mouseup(function (e){ 
+    var divb = $("#bottom"); 
     var bottombutton = $('#b');
-    if (!divb.is(e.target) // если клик был не по нашему блоку
-        && divb.has(e.target).length === 0) { // и не по его дочерним элементам
-      divb.hide() // скрываем его
+    if (!divb.is(e.target) 
+        && divb.has(e.target).length === 0) { 
+      divb.hide() 
       && bottombutton.show();
     }
   });
